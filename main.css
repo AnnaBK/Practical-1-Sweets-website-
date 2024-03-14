@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    color: rgba(119, 78, 46, 1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+p, li {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+/* Header */
+
+.header {
+    padding: 30px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    padding-left: 5px;
+}
+
+.header .container nav ul li {
+    text-align: end;
+}
+
+.header .container nav ul li a {
+    text-decoration: none;
+    color: rgba(119, 78, 46, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.header .container nav ul li a:hover {
+    color: rgba(243, 127, 52, 1);
+}
+
+/* Main */
+
+/* The same styles for sections 1 and 3 */
+
+main .sections1_3 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+main .sections1_3 .container .sections-text {
+    width: 50%;
+}
+
+main .sections1_3 .container img {
+    width: 50%;
+}
+
+/* Section 1 */
+
+main .first-section {
+    padding: 70px 0 150px 0;
+}
+
+main .first-section .container .sections-text h1 {
+    margin: 0 0 40px 0;
+    font-size: 110px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+
+main .first-section .container .sections-text h1 span {
+    color: rgba(243, 127, 52, 1);
+}
+
+main .first-section .container .sections-text form button {
+    background-color: rgba(119, 78, 46, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+    border: none;
+    padding: 21px 41px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+main .first-section .container .sections-text form button:hover {
+    background-color: rgba(243, 127, 52, 1);
+    box-shadow: 0 0 10px rgba(119, 78, 46, 1);
+}
+
+/* Section 2 */
+
+main .second-section {
+    background-color: rgba(255, 249, 234, 1);
+    padding: 150px 0;
+}
+
+main .second-section .container h2 {
+    margin: 0 0 70px 0;
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 110%;
+    text-align: center;
+}
+
+main .second-section .container h2 span {
+    color: rgba(243, 127, 52, 1);
+}
+
+main .second-section .container .sweets-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+main .second-section .container .sweets-container .sweets-item {
+    width: 370px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+main .second-section .container .sweets-container .sweets-item img {
+    width: 100%;
+}
+
+main .second-section .container .sweets-container .sweets-item h4 {
+    margin: 36px 0 15px 0;
+    color: rgba(103, 59, 25, 1);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 130%;
+    text-align: center;
+}
+
+main .second-section .container .sweets-container .sweets-item p {
+    margin: 0px 20px 36px 20px;
+    text-align: center;
+}
+
+/* Section 3 */
+
+main .third-section {
+    padding: 150px 0;
+}
+
+main .third-section .container h2 {
+    max-width: 455px;
+    margin: 0 0 30px 0;
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 110%;
+}
+
+main .third-section .container h2 span {
+    color: rgba(243, 127, 52, 1);
+}
+
+main .third-section .container h4 {
+    margin: 60px 0 20px 0;
+    color: rgba(103, 59, 25, 1);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+main .third-section .container ul {
+    margin: 0;
+    padding-left: 25px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: rgba(119, 78, 46, 1);
+    padding: 40px 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .container img {
+    width: 99px;
+}
+
+.footer .container p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 130%;
+    text-align: end;
+}

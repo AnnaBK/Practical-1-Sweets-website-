@@ -1,0 +1,145 @@
+@media (max-width: 1024px) {
+    main .first-section {
+        padding: 50px 0 100px 0;
+    }
+
+    main .first-section .container .sections-text h1 {
+        font-size: 80px;
+    }  
+
+    main .second-section, main .third-section {
+        padding: 100px 0;
+    }
+
+    main .second-section .container h2, main .third-section .container h2 {
+        font-size: 60px;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+
+    .footer .container img {
+        width: 79px;
+    }
+    
+    .footer .container p {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 768px) {
+    main .first-section {
+        padding: 30px 0 70px 0;
+    }
+
+    main .second-section, main .third-section {
+        padding: 70px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    main .sections1_3 .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .sections1_3 .container .sections-text, main .sections1_3 .container img {
+        width: 100%;
+    }
+
+    main .first-section .container .sections-text h1 {
+        font-size: 60px;
+    } 
+
+    main .second-section .container h2, main .third-section .container h2 {
+        font-size: 40px;
+    }
+
+    .footer .container p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header .container nav ul {
+        flex-direction: column;
+        align-items: end;
+        gap: 20px;
+    }
+
+    main .first-section .container .sections-text h1 {
+        text-align: center;
+    }  
+
+    main .first-section .container .sections-text form {
+        display: flex;
+        justify-content: center;
+    }
+
+    main .third-section .container h2 {
+        text-align: center;
+    }
+
+    .footer .container img {
+        width: 59px;
+    }
+    
+    .footer .container p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px) {
+    p, li {
+        font-size: 14px;
+    }
+
+    .header {
+        padding: 15px 0;
+    }
+
+    .header .container nav ul li a {
+        font-size: 14px;
+    }
+
+    main .first-section {
+        padding: 30px 0 50px 0;
+    }
+
+    main .first-section .container .sections-text h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }  
+
+    main .first-section .container .sections-text form button {
+        font-size: 16px;
+        padding: 10px 20px;
+        margin-top: 30px;
+    }
+
+    main .second-section, main .third-section {
+        padding: 50px 0;
+    }
+
+    main .second-section .container h2, main .third-section .container h2 {
+        font-size: 30px;
+    }
+
+    main .second-section .container h2 {
+        margin-bottom: 30px;
+    }
+
+    main .third-section .container h4 {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .footer {
+        padding: 10px 0;
+    }
+
+    .footer .container p {
+        font-size: 12px;
+    }
+}
